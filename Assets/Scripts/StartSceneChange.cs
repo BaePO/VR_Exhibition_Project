@@ -7,6 +7,15 @@ public class StartSceneChange : MonoBehaviour
 {
     public void SceneChange()
     {
-        SceneManager.LoadScene("CenterSpace");
+        if (this.gameObject.name == "GetStart_Button")
+        {
+            SceneManager.LoadScene("MotionSpace");
+
+        }
+
+        if (this.gameObject.name == "StartButton")
+        {
+            SceneManager.LoadScene("Room");
+        }
     }
 }
