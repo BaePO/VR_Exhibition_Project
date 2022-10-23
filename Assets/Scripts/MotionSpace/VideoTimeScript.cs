@@ -8,6 +8,9 @@ public class VideoTimeScript : MonoBehaviour
     private float timer = 0;
     public TMP_Text timer_text;
 
+    public GameObject XRCanvas;
+    public GameObject teleportVFX;
+
     public void startTimer()
     {
         StartCoroutine(TimeAdd());    
@@ -15,7 +18,7 @@ public class VideoTimeScript : MonoBehaviour
 
     protected IEnumerator TimeAdd()
     {
-        while (timer < 14)
+        while (timer < 48)
         {
             timer++;
             if (timer < 10)
@@ -28,6 +31,8 @@ public class VideoTimeScript : MonoBehaviour
             }
             yield return new WaitForSeconds(1f);
         }
+        XRCanvas.SetActive(false);
+        teleportVFX.SetActive(true);
         StopAllCoroutines();
     }
 }
