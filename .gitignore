@@ -74,6 +74,7 @@ node_modules
 /Assets/Videos
 /Assets/XR
 /Assets/XRI
+/Assets/Datas
 /Assets/Animations.meta
 /Assets/Images.meta
 /Assets/Models.meta
@@ -83,5 +84,6 @@ node_modules
 /Assets/Scenes.meta
 /Assets/Videos.meta
 /Assets/XR.meta
+/Assets/Datas.meta
 /Assets/XRI.meta
 BuildLogs

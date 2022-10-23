@@ -17,5 +17,10 @@ public class StartSceneChange : MonoBehaviour
         {
             SceneManager.LoadScene("Room");
         }
+
+        if (this.gameObject.name == "SceneMoveTrigger")
+        {
+            SceneManager.LoadScene("Rooftop");
+        }
     }
 }

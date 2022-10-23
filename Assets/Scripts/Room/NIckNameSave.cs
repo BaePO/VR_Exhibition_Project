@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class NIckNameSave : MonoBehaviour
 {
     public static NIckNameSave Instance;
 
     private string NickName;
-    public TMP_InputField inputField_NickName;
+    public InputField inputField_NickName;
 
     private void Awake()
     {
