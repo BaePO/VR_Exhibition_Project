@@ -7,8 +7,7 @@ public class NIckNameSave : MonoBehaviour
 {
     public static NIckNameSave Instance;
 
-    private string NickName;
-    public InputField inputField_NickName;
+    public string NickName;
 
     private void Awake()
     {
@@ -22,6 +21,6 @@ public class NIckNameSave : MonoBehaviour
 
     public void NIckNameInput()
     {
-        NickName = inputField_NickName.text;
+        NickName = GetComponent<Text>().text;
     }
 }

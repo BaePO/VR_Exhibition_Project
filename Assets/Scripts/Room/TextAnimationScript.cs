@@ -104,6 +104,7 @@ public class TextAnimationScript : MonoBehaviour
         backBtn.onClick.AddListener(() =>
         {
             SceneManager.LoadScene("Start");
+            NIckNameSave.Instance.NickName = ""; // 닉네임 초기화
         });
     }
 
