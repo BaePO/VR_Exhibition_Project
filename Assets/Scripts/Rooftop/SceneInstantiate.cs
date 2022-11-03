@@ -12,7 +12,7 @@ public class SceneInstantiate : MonoBehaviour
 
     IEnumerator SceneInit()
     {
-        yield return new WaitForSeconds(10.0f);
+        yield return new WaitForSeconds(15.0f);
         SceneManager.LoadScene("Start");
         StopAllCoroutines();
     }

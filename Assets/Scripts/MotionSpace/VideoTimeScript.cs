@@ -8,8 +8,11 @@ public class VideoTimeScript : MonoBehaviour
     private float timer = 0;
     public TMP_Text timer_text;
 
-    public GameObject XRCanvas;
+    public GameObject VideoUI;
+    public GameObject VideoUI2;
     public GameObject teleportVFX;
+    public GameObject text9;
+    public GameObject text10;
 
     public void startTimer()
     {
@@ -31,8 +34,11 @@ public class VideoTimeScript : MonoBehaviour
             }
             yield return new WaitForSeconds(1f);
         }
-        XRCanvas.SetActive(false);
+        VideoUI.SetActive(false);
+        VideoUI2.SetActive(false);
         teleportVFX.SetActive(true);
+        text9.SetActive(false);
+        text10.SetActive(true);
         StopAllCoroutines();
     }
 }

@@ -14,7 +14,7 @@ public class CameraDefault : MonoBehaviour
     {
         StartCoroutine(Reset());
     }
-
+     
     public void ResetPosition()
     {
         var rotationAngleY = resetTransform.rotation.eulerAngles.y - playerHead.transform.rotation.eulerAngles.y;

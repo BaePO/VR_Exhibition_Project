@@ -156,6 +156,7 @@ Library: lib_burst_generated
 --compilation-defines=USING_URP
 --compilation-defines=USING_MRC_COMPATIBLE_URP_VERSION
 --compilation-defines=OVR_UNITY_ASSET_STORE
+--compilation-defines=USING_PARTICLE_SYSTEM
 --compilation-defines=INCLUDE_PHYSICS_MODULE
 --compilation-defines=INCLUDE_UGUI
 --compilation-defines=INCLUDE_INPUT_SYSTEM
@@ -188,13 +189,15 @@ Library: lib_burst_generated
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\VoiceSDK.Dictation.Runtime.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\VoiceSDK.Runtime.dll
+--root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Facebook.WitAI.dll
+--root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.ProBuilder.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.XR.CoreUtils.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Oculus.Interaction.Samples.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
---root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Oculus.Voice.Demo.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\NexPlayer.FullSample.dll
+--root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Oculus.Voice.Demo.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.VisualEffectGraph.Runtime.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\AssistantCoreSDKRuntime.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\LitJson.dll
@@ -202,6 +205,7 @@ Library: lib_burst_generated
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Oculus.LipSync.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Oculus.Spatializer.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.XR.Management.dll
+--root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.ProBuilder.KdTree.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Facebook.Wit.Conduit.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Facebook.Wit.Dictation.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\NexPlayer.dll
@@ -209,9 +213,12 @@ Library: lib_burst_generated
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Facebook.Wit.TTS.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Facebook.Wit.TTS.Samples.dll
+--root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Csg.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\NexPlayer.SimpleSample.dll
+--root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Stl.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+--root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.MemoryProfiler.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --assembly-folder=D:\Unity_XR_Projects\VR_Exhibition_Project\Temp\StagingArea\Data\Managed\

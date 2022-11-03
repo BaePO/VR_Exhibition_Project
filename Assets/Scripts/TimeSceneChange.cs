@@ -15,7 +15,6 @@ public class TimeSceneChange : MonoBehaviour
     private void Start()
     {
         playerTr = GetComponent<Transform>();
-
         startPos = transform.position;
 
         StartCoroutine(InputCheck());
@@ -38,7 +37,10 @@ public class TimeSceneChange : MonoBehaviour
             {
                 startPos = playerTr.position;
                 checking = false;
-                StopCoroutine(lastRoutine);
+                if (lastRoutine != null)
+                {
+                    StopCoroutine(lastRoutine);
+                }
             }
         }        
     }

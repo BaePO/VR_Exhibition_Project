@@ -7,31 +7,31 @@ using JoshH.UI;
 
 public class TextAnimationScript : MonoBehaviour
 {
-    private int idx = 0;
+    // private int idx = 0;
 
     // private Vector2 startPosition;
     // private Vector2 endPosition;
 
-    private float y_pos1;
-    private float y_pos2;
+    // private float y_pos1;
+    // private float y_pos2;
 
-    public Button nextBtn;
+    // public Button nextBtn;
     public Button backBtn;
 
-    private GameObject text1;
-    private GameObject text2;
-    private GameObject text3;
-    private GameObject text4;
+    // private GameObject text1;
+    // private GameObject text2;
+    // private GameObject text3;
+    // private GameObject text4;
 
-    float gap;
-    bool lerp = false;
+    // float gap;
+    // bool lerp = false;
 
-    float lerpTime = 0.7f;
-    float currentTime = 0;
+    // float lerpTime = 0.7f;
+    // float currentTime = 0;
 
     private void Start()
     {
-        if (this.gameObject.name.Contains("Room"))
+        /*if (this.gameObject.name.Contains("Room"))
         {
             gap = 25.0f;
         }
@@ -100,6 +100,7 @@ public class TextAnimationScript : MonoBehaviour
             idx++;
 
         });
+        */
 
         backBtn.onClick.AddListener(() =>
         {
@@ -108,7 +109,7 @@ public class TextAnimationScript : MonoBehaviour
         });
     }
 
-    private void Update()
+    /*private void Update()
     {
         if (lerp)
         {
@@ -146,7 +147,7 @@ public class TextAnimationScript : MonoBehaviour
         {
 
         };
-    }
+    }*/
 
     IEnumerator textSetActiveTrue(GameObject txt)
     {
