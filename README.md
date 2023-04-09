@@ -6,6 +6,4 @@ KHU Industrial Design Students' Graduation Exhibition Using VR - Dev
 
 Unity - XR Interaction Toolkit Package를 이용하였으며 Oculus Quest2 기기로 진행하였습니다.
 
-2022/11/8 ~ 2022/11/14 까지 진행되었습니다.
-
 ![41383999-A707-4178-AD15-AA045F0CD995](https://user-images.githubusercontent.com/96255741/202937594-195f5fe5-9e92-47d3-b870-8f20ed5cb7b7.jpg)
